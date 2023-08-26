@@ -1,0 +1,65 @@
+{
+  "name": "starter",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emailjs/browser": "^3.10.0",
+    "@emotion/react": "^11.11.1",
+    "@mantine/carousel": "^6.0.15",
+    "@mantine/core": "^6.0.15",
+    "@mantine/hooks": "^6.0.15",
+    "@tabler/core": "^1.0.0-beta19",
+    "@tabler/icons-react": "^2.23.0",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "countapi-js": "^1.0.2",
+    "embla-carousel-autoplay": "^8.0.0-rc11",
+    "embla-carousel-react": "^8.0.0-rc07",
+    "framer-motion": "^6.3.0",
+    "icon-with-tooltip": "^2.0.0",
+    "jquery": "^3.6.3",
+    "practical-js": "^1.0.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.7.1",
+    "react-router-dom": "^6.6.1",
+    "react-scripts": "^5.0.1",
+    "react-scroll": "^1.8.9",
+    "react-tsparticles": "^2.7.1",
+    "react-type-animation": "^2.1.2",
+    "sass": "^1.57.1",
+    "tsparticles": "^2.7.1",
+    "typewriter-effect": "^2.19.0",
+    "web-vitals": "^2.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}

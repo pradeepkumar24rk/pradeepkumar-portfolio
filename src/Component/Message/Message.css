@@ -1,0 +1,86 @@
+.message{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    height: 70vh;
+    margin-top: 3rem;
+    padding: 0 3rem 0 3rem;
+    
+}
+.m-left{
+    flex: 1;
+    display: flex;
+    text-align: center;
+    /* background: red; */
+    flex-direction: column;
+    /* align-items: center; */
+    position: relative;
+    top:-4rem;
+}
+.l1
+{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.l2{
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--blue);
+}
+
+.m-right{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 5rem;
+}
+.m-right>form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+.m-right .user{
+    width: 20rem;
+    height: 3rem;
+    padding: 0.3em;
+    outline: none;
+    border: 3px solid var(--blue);
+    border-radius: 8px;
+    font-size: 16px;
+    /* margin-top: 5rem; */
+}
+textarea{
+     height: 4rem !important;
+}
+.c-blurl{
+    top: 1rem;
+    left: 8rem;
+}
+.s-blurl{
+    left: -210px;
+    top: 100px;
+}
+
+@media only screen and (max-width:600px){
+    .message{
+        display: block;
+        height: 60vh;
+    }
+    .m-left{
+        
+        flex-wrap: wrap;
+        top: 18px;
+    }
+    .l1{
+        display: none;
+    }
+    .m-right .user{
+        width: 19rem;
+    }
+    .button{
+        width: 10rem;
+        font-size: 20px;
+    }
+}

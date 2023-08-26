@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+.skill{
+    margin-top: 40px;
+    height: 70vh;
+}
+.head{
+    padding-top: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.head>h1{
+    font-weight: bold;
+    /* font-size: 35px; */
+    font-size: 2rem;
+}
+.skill-body{
+    display: flex;   
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+.front-end, .back-end{
+    
+    width: 35rem;
+    height: 20rem;
+    text-align: center;
+    background:#087f5b;
+box-shadow: 0 8px 32px 0 rgba(31, 135, 52, 0.37);
+backdrop-filter: blur( 20px );
+-webkit-backdrop-filter: blur( 20px );
+border-radius: 30px;
+}
+.front-end>h6, .back-end>h6{
+    color: #2fe27a;
+    margin: 50px 0px;
+    font-size: 30px;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+.lang{
+    display: flex;
+    gap: 5rem;
+    margin-top: 2rem;
+}
+ul{
+    list-style: none;
+    
+}
+ul>li{
+    display: flex;
+    align-items: center;
+    gap: 0;
+    padding: 10px;
+    
+}

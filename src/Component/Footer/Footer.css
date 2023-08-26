@@ -1,0 +1,93 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    background:rgb(48, 46, 46);;
+    /* margin: 0%; */
+    color: floralwhite;
+    height: 50vh;
+    gap: 30px;
+    border-radius: 20px;
+    position: relative;
+}
+.f-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.f-left-head{
+    /* text-decoration:underline; */
+    font: 15px;
+    position: relative;
+    left: -7px;
+    text-transform: uppercase;
+    
+}
+.content>ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.content>ul>li{
+    list-style-type:none;
+    text-transform: capitalize;
+}
+li:hover{
+    color: var(--blue);
+    cursor: pointer;
+}
+
+
+
+.f-right{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.f-email{
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+}
+.f-icon{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.f-icon>a{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+    color: aliceblue;
+
+}
+.f-icon>a:nth-child(2){margin-left: 20px;}
+.f-icon>a:nth-child(3){margin-left: 20px;}
+.f-icon>a:hover:nth-child(1){
+    color: rgb(243, 112, 103);
+    /* background-color: white; */
+    border-radius: 15px;
+}
+.f-icon>a:hover:nth-child(2){
+    color: rgb(46, 26, 226);
+    background-color: white;
+}
+.f-icon>a:hover:nth-child(3){
+    color: black;
+    background-color: rgb(224, 220, 220);
+    border-radius: 15px;
+}
+
+@media only screen and (max-width:600px){
+    .f-left{
+        display: none;
+    }
+}

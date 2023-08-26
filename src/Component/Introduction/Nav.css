@@ -1,0 +1,84 @@
+.Nav{
+    display:flex;
+    justify-content: space-between;
+    /* margin: 10px; */
+    padding: 10px 34px;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+    background-color: rgb(48, 46, 46);
+    height: 10vh;
+    align-items: center;
+    
+}
+.nav-left{
+    text-align: center;
+}
+.nav-name{
+    font-weight: bold;
+    font-size: 50px;
+}
+.nav-right{
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+    cursor: pointer;
+    position: relative;
+}
+.nav-list>ul{
+    display:flex;
+    gap: 1rem;
+    /* margin-right: 4rem; */
+    list-style-type: none;
+    align-items: center;
+}
+.nav-list>ul>li:hover{
+color: var(--blue);
+cursor:pointer;
+}
+.nav-button{
+    flex:2;
+}
+.nav-name>span{
+    color: var(--blue);
+    font-weight: bold;
+    font-size: 50px;
+}
+.nav-list .active{
+    color: var(--blue);
+}
+
+.Res-Nav, .icon{
+    display: none;
+}
+
+@media only screen and (max-width:600px) {
+    
+    
+    .nav-list{
+        display: none;
+    }
+   .Res-Nav{
+    display: block;
+   }
+   .icon{
+    position: absolute;
+        color: white;
+        display: block;
+        
+   }
+    .Menu{
+       background-color: rgb(48, 46, 46);
+       position: absolute;
+       top: 10rem;
+       right: 5rem;
+       width: 300px;
+        display: flex;
+        justify-content: center;
+        text-transform: uppercase;
+        line-height: 80px;
+        /* top: 10px; */
+    }
+}

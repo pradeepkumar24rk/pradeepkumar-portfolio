@@ -1,0 +1,19 @@
+.Experience{
+    color: var(--blue);
+    background-color: rgb(48, 46, 46);
+    flex-direction: column;
+    height: 84vh;
+}
+.Timeline{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+@media only screen and (max-width:600px){
+    .Experience{
+        margin-top: 5rem;
+        height: 54vh;
+    }
+}

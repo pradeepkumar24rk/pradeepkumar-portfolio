@@ -1,0 +1,47 @@
+.Achievement{
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+    height: 100vh;
+    /* width: 100vh; */
+    margin-top: 50px;
+    overflow: hidden;
+    background-color: rgb(48, 46, 46);
+    
+}
+.achieve-head>h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--blue);
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+/* .achieve-cards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 80px;   
+    height: inherit;
+    
+} */
+.slider{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  @media only screen and (max-width:600px){
+  
+    .Achievement{
+      text-align: center;
+      height: 55vh;
+    }
+    .achieve-head>h1{
+      font-size: 40px;
+    }
+    .achieve-cards{
+      grid-template-columns: repeat(auto-fill,minmax(600px,1fr));
+    }
+  } 
+  
