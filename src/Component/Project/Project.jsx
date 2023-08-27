@@ -18,7 +18,7 @@ const Project = () => {
         slideGap="xl"
         dragFree
         withControls={false}
-        
+        className="carousel"
       >
         {project.map((data) => {
           return (

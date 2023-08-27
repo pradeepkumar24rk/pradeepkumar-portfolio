@@ -6,8 +6,32 @@ import img5 from "./img/movieapp.PNG";
 import cts from "./img/cts.jpg";
 import nptel from "./img/NPTEL JAVA.jpeg";
 import c from "./img/Introduction To Programming In C.jpg";
+import icom from "./img/icom.png"
+import ecom from "./img/E-com.png"
+import chat from "./img/Chatting.png"
 
 export const project = [
+  {
+    name: "I-Com",
+    img: icom,
+    describe: "This website connects like-minded users, using Redux Toolkit for state, React.js & Mantine UI for the interface, and MongoDB Atlas Cloud for data storage, fostering online communities and knowledge exchange.",
+    slink: "https://github.com/pradeepkumar24rk/i-community",
+    demo: "",
+  },
+  {
+    name: "Chat Application",
+    img: chat,
+    describe: "The site enables team members to communicate via socket.io. Its interface is built with reactjs and styled components for seamless user experience and interaction.",
+    slink: "https://github.com/pradeepkumar24rk/Chatting",
+    demo: "",
+  },
+  {
+    name: "Dress Up Now",
+    img: ecom,
+    describe: "This website allows you to buy dresses using Stripe payment. The state is maintained using Redux Toolkit, the user interface is developed using React.js, and the data is maintained in MongoDB Atlas cloud.",
+    slink: "https://github.com/pradeepkumar24rk/Dress-Up-Now",
+    demo: "",
+  },
   {
     name: "TicTacToe",
     img: img1,
@@ -20,13 +44,6 @@ export const project = [
     img: img2,
     describe: "This website allows users to securely store and access their important notes through a personalized login system implemented with PHP. Users can easily log in and out of their account, ensuring the safety and privacy of their notes.",
     slink: "https://github.com/pradeepkumar24rk/Ocean-Notes",
-    demo: "",
-  },
-  {
-    name: "Dress Up Now",
-    img: img3,
-    describe: "This website allows you to buy dresses using Stripe payment. The state is maintained using Redux Toolkit, the user interface is developed using React.js, and the data is maintained in MongoDB Atlas cloud.",
-    slink: "https://github.com/pradeepkumar24rk/Dress-Up-Now",
     demo: "",
   },
   {

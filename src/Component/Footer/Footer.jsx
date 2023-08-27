@@ -26,7 +26,7 @@ const Footer = () => {
       <div className='f-right'>
           <span className='f-email'>pradeepkumar24rk@gmail.com</span>
           <div className='f-icon'>
-            <a href='https://www.instagram.com/pradeep.kumar24rk/?next=%2F'> <GrInstagram size={30}/></a>
+            <a href='https://www.instagram.com/looping__designer/?next=%2F'> <GrInstagram size={30}/></a>
             <a href='https://www.linkedin.com/in/pradeepkumar-r-520520202/'><ImLinkedin size={30}/></a>
             <a href='https://github.com/pradeepkumar24rk'><BsGithub size={30}/></a>
           </div>
