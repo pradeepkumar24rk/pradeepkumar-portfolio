@@ -29,22 +29,22 @@ const Introduction = () => {
               );
 
               typewriter.typeString(
-                "<span style='margin-top:20px'>Full Stack web Developer with medium level of</span><br> "
+                "<span style='margin-top:20px'>Full Stack web Developer</span><br>"
               );
 
-              typewriter.typeString("<span style=''>experience in </span>");
+              // typewriter.typeString("<span style=''>experience in </span>");
 
-              typewriter.typeString(
-                "<strong style='font-weight:bold'>web development</strong><br>"
-              );
+              // typewriter.typeString(
+              //   "<strong style='font-weight:bold'>web development</strong><br>"
+              // );
 
               typewriter.typeString("<span style=''>and</span><br>");
               typewriter.typeString(
-                "<strong style=';font-weight:bold'>3D designing</strong><br><br>"
+                "<span >iOS Software Developer</span><br><br>"
               );
               typewriter
                 .typeString(
-                  '<button class="learn-more"><span class="circle" aria-hidden="true"><span class="icon arrow"></span></span><span class="button-text"><a href="https://drive.google.com/file/d/1gELghr83VaNZOwxIzFSGUhk92N75pT-X/view?usp=sharing" target="_blank">Explore me</a></span></button>'
+                  '<button class="learn-more"><span class="circle" aria-hidden="true"><span class="icon arrow"></span></span><span class="button-text"><a href="https://drive.google.com/file/d/1H0AZ2Q8G81IHQlhZip6R9JWIWMdaUaYC/view?usp=sharing" target="_blank">Explore me</a></span></button>'
                 )
                 .start();
             }}

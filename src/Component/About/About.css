@@ -67,7 +67,6 @@ b{
 
 @media only screen and (max-width:600px) {
     .about{
-        height: 70vh;
         text-align: center;
     }
     .a-left{

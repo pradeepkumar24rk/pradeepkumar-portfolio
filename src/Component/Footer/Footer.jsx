@@ -9,20 +9,7 @@ const Footer = () => {
   const transition={duration:3,type:'spring'}
   return (
     <div className='footer'>
-      <div className='f-left'>
-        <snap className="f-left-head">Content</snap>
-        <div className='content'>
-          <ul className='content-cls'>
-            <li>Home</li>
-            <li>About</li>
-            <li>skills</li>
-            <li>Project</li>
-            <li>achievement</li>
-            <li>contact</li>
-          </ul>
-        </div>
-        
-      </div>
+      
       <div className='f-right'>
           <span className='f-email'>pradeepkumar24rk@gmail.com</span>
           <div className='f-icon'>

@@ -57,11 +57,11 @@ const Nav = () => {
               <Link spy={true} to="Skills" smooth={true}>
                 <li>Skill</li>
               </Link>
-              <Link spy={true} to="Achievement" smooth={true}>
-                <li>Achievement</li>
-              </Link>
               <Link spy={true} to="Project" smooth={true}>
                 <li>Project</li>
+              </Link>
+              <Link spy={true} to="Achievement" smooth={true}>
+                <li>Achievement</li>
               </Link>
               <Link spy={true} to="Contact" smooth={true}>
                 <li>Contact</li>

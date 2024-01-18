@@ -2,18 +2,26 @@
     color: var(--blue);
     background-color: rgb(48, 46, 46);
     flex-direction: column;
-    height: 84vh;
+    padding: 2rem 0;
 }
 .Timeline{
     margin-top: 4rem;
     display: flex;
     justify-content: center;
     /* align-items: center; */
+    margin:0 10rem;
 }
 
 @media only screen and (max-width:600px){
     .Experience{
         margin-top: 5rem;
-        height: 54vh;
+    }
+    .Timeline {
+        padding-bottom: 3rem;
+        display: flex;
+        justify-content: start;
+        /* word-wrap: break-word */
+        margin:0 2rem;
+    
     }
 }

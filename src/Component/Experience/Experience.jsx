@@ -18,7 +18,7 @@ const Experience = () => {
                 <Text color="white" size="xl" >
                   {data.title}
                 </Text>
-                <Text color="dimmed" size="md" align="justify" w={500} pl={20}>
+                <Text color="dimmed" size="md" align="justify"  pl={30}>
                   {data.desc}
                 </Text>
                 <Text size="xs" color="white" mt={4}>

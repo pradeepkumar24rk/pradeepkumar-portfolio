@@ -24,7 +24,7 @@ const About = () => {
         >
           <span>About Me</span>
           <span>
-            Developer <span style={{ color: "var(--blue)" }}>& Designer</span>{" "}
+            Developer
           </span>
           <span>
             Hello! I'm Pradeepkumar, a final year student at M. Kumarasamy
@@ -33,7 +33,7 @@ const About = () => {
             worked on various projects involving
             <b>
               {" "}
-              MongoDB, ExpressJS, ReactJS, and NodeJS{" "}
+              Swift, MongoDB, ExpressJS, ReactJS, and NodeJS{" "}
             </b>
             gaining valuable experience through internships at{" "}
             <b>Mkcsdigital and InterDeccaan Solutions</b>. In my free time, I

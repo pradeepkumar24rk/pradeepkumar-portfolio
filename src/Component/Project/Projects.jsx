@@ -32,10 +32,12 @@ const Projects = (props) => {
           <AiFillGithub />
         </Button>
         <Button
+        component="a"
           variant="light"
           color="green"
           mt="md"
           radius="md"
+          href={props.demo}
         >   
           <FaPager />
         </Button>

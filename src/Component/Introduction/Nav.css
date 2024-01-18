@@ -72,8 +72,8 @@ cursor:pointer;
     .Menu{
        background-color: rgb(48, 46, 46);
        position: absolute;
-       top: 10rem;
-       right: 5rem;
+       top: 12vh;
+       right: 0;
        width: 300px;
         display: flex;
         justify-content: center;

@@ -1,8 +1,7 @@
 import img1 from "./img/tictac.gif";
 import img2 from "./img/notes.PNG";
-import img3 from "./img/smartwatch.PNG";
-import img4 from "./img/threejs.gif";
-import img5 from "./img/movieapp.PNG";
+import thirdi from "./img/Thirdi .png";
+import evhub from "./img/EVHub.jpg";
 import cts from "./img/cts.jpg";
 import nptel from "./img/NPTEL JAVA.jpeg";
 import c from "./img/Introduction To Programming In C.jpg";
@@ -11,10 +10,18 @@ import ecom from "./img/E-com.png"
 import chat from "./img/Chatting.png"
 
 export const project = [
+  
+  {
+    name: "EVHub",
+    img: evhub,
+    describe: " This iOS app assists users in discovering nearby charging stations, reserving slots, and enables station owners to add hubs to the map. It also ensures secure authentication for both station owners and public users.",
+    slink: "https://github.com/pradeepkumar24rk/i-community",
+    demo: "https://www.linkedin.com/posts/pradeepkumar-r-520520202_evhubapp-evcharging-innovation-activity-7124746102658011136-9-h5?utm_source=share&utm_medium=member_desktop",
+  },
   {
     name: "I-Com",
     img: icom,
-    describe: "This website connects like-minded users, using Redux Toolkit for state, React.js & Mantine UI for the interface, and MongoDB Atlas Cloud for data storage, fostering online communities and knowledge exchange.",
+    describe: "It is a dynamic website enables users to communicate with followers, post blogs to share knowledge, and interact with friends. Users can save and share favorite content, like and comment on posts, ensuring secure authentication.",
     slink: "https://github.com/pradeepkumar24rk/i-community",
     demo: "",
   },
@@ -23,13 +30,6 @@ export const project = [
     img: chat,
     describe: "The site enables team members to communicate via socket.io. Its interface is built with reactjs and styled components for seamless user experience and interaction.",
     slink: "https://github.com/pradeepkumar24rk/Chatting",
-    demo: "",
-  },
-  {
-    name: "Dress Up Now",
-    img: ecom,
-    describe: "This website allows you to buy dresses using Stripe payment. The state is maintained using Redux Toolkit, the user interface is developed using React.js, and the data is maintained in MongoDB Atlas cloud.",
-    slink: "https://github.com/pradeepkumar24rk/Dress-Up-Now",
     demo: "",
   },
   {
@@ -47,18 +47,11 @@ export const project = [
     demo: "",
   },
   {
-    name: "New World",
-    img: img4,
-    describe: "My debut Three.js website merges HTML and Three.js, crafting an immersive and captivating experience. 3D models and animations, courtesy of Three.js, add depth and interactivity, resulting in a dynamic, impressive, and captivating website.",
-    slink: "https://github.com/pradeepkumar24rk/New_world",
-    demo: "",
-  },
-  {
-    name: "Movie Search",
-    img: img5,
-    describe: "This React JS and Bootstrap web page allows intuitive movie searching. User-friendly interface, seamless experience, filtering, and sorting options enhance finding desired content quickly.                  ",
-    slink: "https://github.com/pradeepkumar24rk/Movie_app",
-    demo: "",
+    name: "Third i",
+    img: thirdi,
+    describe: "This landing website help to discover and download the third i application utilizes Deep Learning to implement the concept of Obstacles Detection and Distance Estimation, providing a convenient and reliable guidance system for the visually impaired.",
+    slink: "https://github.com/pradeepkumar24rk/Third_i",
+    demo: "https://thirdi.netlify.app/",
   },
 ];
 

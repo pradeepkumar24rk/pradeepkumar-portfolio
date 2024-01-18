@@ -17,9 +17,9 @@ const Skill = () => {
                 <h6>Frontend Development</h6>
                 <div className='lang'>
                     <ul>
-                        <li><HiBadgeCheck style={{color:'#2fe27a'}}/>HTML</li>
-                        <li><HiBadgeCheck style={{color:'#2fe27a'}}/>JavaScript</li>
-                        <li><HiBadgeCheck style={{color:'#2fe27a'}}/>Style-Components</li>
+                        <li><HiBadgeCheck style={{color:'#2fe27a'}} />HTML</li>
+                        <li><HiBadgeCheck style={{color:'#2fe27a'}} />JavaScript</li>
+                        <li><HiBadgeCheck style={{color:'#2fe27a'}} />Java</li>
                        
                         
                     </ul>
@@ -27,6 +27,7 @@ const Skill = () => {
                         <li><HiBadgeCheck style={{color:'#2fe27a'}}/>CSS</li>
                         <li><HiBadgeCheck style={{color:'#2fe27a'}}/>Mantine UI</li>
                         <li><HiBadgeCheck style={{color:'#2fe27a'}}/>React js</li>
+                        <li><HiBadgeCheck style={{color:'#2fe27a'}}/>Swift</li>
        
                     </ul>
                 
@@ -39,13 +40,13 @@ const Skill = () => {
                     <ul>
                     <li><HiBadgeCheck style={{color:'#2fe27a'}}/>Node js</li>
                         <li><HiBadgeCheck style={{color:'#2fe27a'}}/>Express js</li>
-                        <li><HiBadgeCheck style={{color:'#2fe27a'}}/>RESTFULL API</li>
+                        <li><HiBadgeCheck style={{color:'#2fe27a'}}/>PHP</li>
 
                     </ul>
                     <ul>
+                        <li><HiBadgeCheck style={{color:'#2fe27a'}}/>RESTFULL API</li>
                         <li><HiBadgeCheck style={{color:'#2fe27a'}}/>MongoDB</li>
                         <li><HiBadgeCheck style={{color:'#2fe27a'}}/>MySQL</li>
-                        <li><HiBadgeCheck style={{color:'#2fe27a'}}/>PHP</li>
                     </ul>
                 
                 </div>
