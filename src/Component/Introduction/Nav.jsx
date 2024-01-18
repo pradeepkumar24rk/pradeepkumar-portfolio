@@ -66,6 +66,7 @@ const Nav = () => {
               <Link spy={true} to="Contact" smooth={true}>
                 <li>Contact</li>
               </Link>
+              <a href="https://drive.google.com/file/d/1H0AZ2Q8G81IHQlhZip6R9JWIWMdaUaYC/view?usp=sharing" target="_blank" rel="noreferrer"><li>Resume</li></a>
             </ul>
           </div>
         )}

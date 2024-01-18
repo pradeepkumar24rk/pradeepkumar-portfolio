@@ -20,8 +20,6 @@ const Skill = () => {
                         <li><HiBadgeCheck style={{color:'#2fe27a'}} />HTML</li>
                         <li><HiBadgeCheck style={{color:'#2fe27a'}} />JavaScript</li>
                         <li><HiBadgeCheck style={{color:'#2fe27a'}} />Java</li>
-                       
-                        
                     </ul>
                     <ul>
                         <li><HiBadgeCheck style={{color:'#2fe27a'}}/>CSS</li>
