@@ -6,7 +6,6 @@ import cts from "./img/cts.jpg";
 import nptel from "./img/NPTEL JAVA.jpeg";
 import c from "./img/Introduction To Programming In C.jpg";
 import icom from "./img/icom.png"
-import ecom from "./img/E-com.png"
 import chat from "./img/Chatting.png"
 
 export const project = [
@@ -33,11 +32,18 @@ export const project = [
     demo: "",
   },
   {
+    name: "Third i",
+    img: thirdi,
+    describe: "This landing website help to discover and download the third i application utilizes Deep Learning to implement the concept of Obstacles Detection and Distance Estimation, providing a convenient and reliable guidance system for the visually impaired.",
+    slink: "https://github.com/pradeepkumar24rk/Third_i",
+    demo: "https://thirdi.netlify.app/",
+  },
+  {
     name: "TicTacToe",
     img: img1,
     describe: "A tic tac toe game built using React JS, which allows two players to take turns marking X's and O's on a 3x3 grid. The game determines the winner based on the player who is first to get three of their marks in a row, column, or diagonal.",
     slink: "https://github.com/pradeepkumar24rk/TicTac",
-    demo: "",
+    demo: "https://tictactoe24rk.netlify.app/",
   },
   {
     name: "Ocean Notes",
@@ -45,13 +51,6 @@ export const project = [
     describe: "This website allows users to securely store and access their important notes through a personalized login system implemented with PHP. Users can easily log in and out of their account, ensuring the safety and privacy of their notes.",
     slink: "https://github.com/pradeepkumar24rk/Ocean-Notes",
     demo: "",
-  },
-  {
-    name: "Third i",
-    img: thirdi,
-    describe: "This landing website help to discover and download the third i application utilizes Deep Learning to implement the concept of Obstacles Detection and Distance Estimation, providing a convenient and reliable guidance system for the visually impaired.",
-    slink: "https://github.com/pradeepkumar24rk/Third_i",
-    demo: "https://thirdi.netlify.app/",
   },
 ];
 
