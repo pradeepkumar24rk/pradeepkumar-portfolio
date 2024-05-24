@@ -22,14 +22,14 @@ export const project = [
     img: icom,
     describe: "It is a dynamic website enables users to communicate with followers, post blogs to share knowledge, and interact with friends. Users can save and share favorite content, like and comment on posts, ensuring secure authentication.",
     slink: "https://github.com/pradeepkumar24rk/i-community",
-    demo: "",
+    demo: "https://i-com24rk.netlify.app/",
   },
   {
     name: "Chat Application",
     img: chat,
     describe: "The site enables team members to communicate via socket.io. Its interface is built with reactjs and styled components for seamless user experience and interaction.",
     slink: "https://github.com/pradeepkumar24rk/Chatting",
-    demo: "",
+    demo: "https://teamchat24rk.netlify.app/",
   },
   {
     name: "Third i",

@@ -44,7 +44,7 @@ const Introduction = () => {
               );
               typewriter
                 .typeString(
-                  '<button class="learn-more"><span class="circle" aria-hidden="true"><span class="icon arrow"></span></span><span class="button-text"><a href="https://drive.google.com/file/d/1H0AZ2Q8G81IHQlhZip6R9JWIWMdaUaYC/view?usp=sharing" target="_blank">Explore me</a></span></button>'
+                  '<button class="learn-more"><span class="circle" aria-hidden="true"><span class="icon arrow"></span></span><span class="button-text"><a href="https://drive.google.com/file/d/1OXK2nVamVYYJazoQMk9_LW8itqfiIny0/view?usp=drive_link" target="_blank">Explore me</a></span></button>'
                 )
                 .start();
             }}
